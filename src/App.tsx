@@ -1,5 +1,5 @@
 import Example1 from "./Example1";
-import Example2 from "./Example2";
+import {Example2_1, Example2_2} from "./Example2";
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
       <Example1 />
 
       <h1>예시 2</h1>
-      <Example2 />
-      <Example2 />
+      <Example2_1 />
+      <Example2_2 />
     </div>
   );
 }
